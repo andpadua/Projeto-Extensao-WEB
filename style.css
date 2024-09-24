@@ -106,6 +106,12 @@ nav{
 
 .card {
     border: none;
+    background-color: rgb(252, 218, 203);
+}
+
+.eventos p {
+    margin-top: 15px;
+    font-size: 16px;
 }
 
 .eventos-button{
@@ -128,13 +134,14 @@ nav{
 
 .horarios {
 	display: flex;
+    width: 100%;
     padding: 50px;
 	text-align: center;
 }
 
 
 .horarios p{
-    margin: 15px 20px;
+    margin: 3px 5px;
     text-align: left;
     font-size: 15px;
     padding: 15px 15px;
@@ -161,10 +168,16 @@ nav{
 .icon-title {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1.5px solid sienna;
     font-size: 16px;
     justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #010101;
+    margin-top: 10px;
 }
 
 .icons {
@@ -177,13 +190,7 @@ nav{
     margin-top: -10px;
 }
 
-.horarios .horarios-cards .icon-title, 
-.horarios .horarios-cards .p,
-.horarios .horarios-cards .icons:hover{
-    color: white;
-}
-
-/* section sobre opção 2 */
+/* Sobre */
 
 .sobre {
     background-color:  rgb(252, 218, 203);
@@ -224,8 +231,6 @@ nav{
 .sobre-button:hover {
     background-color: #b37153; /* Cor de fundo ao passar o mouse */
 }
-
-/* FIM Sobre */
 
 /* Galeria */
 .galeria {
